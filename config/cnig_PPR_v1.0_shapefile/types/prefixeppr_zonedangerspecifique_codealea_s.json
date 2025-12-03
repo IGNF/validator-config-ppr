@@ -78,7 +78,10 @@
       {
         "name": "descript",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "idouvprots",
@@ -86,8 +89,8 @@
         "type": "String",
         "constraints": {
           "maxLength": 50,
+          "required": false,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_s.idouvprot"
-
         }
       },
       {
@@ -96,6 +99,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 50,
+          "required": false,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_l.idouvprot"
 
         }
@@ -106,6 +110,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 50,
+          "required": false,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_p.idouvprot"
         }
       },

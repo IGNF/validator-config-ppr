@@ -78,13 +78,17 @@
       {
         "name": "description",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "idouvrageprotecteur_s",
         "description": "",
         "type": "String",
         "constraints": {
+          "required": false,
           "maxLength": 50,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_s.idouvrageprotecteur"
 
@@ -95,6 +99,7 @@
         "description": "",
         "type": "String",
         "constraints": {
+          "required": false,
           "maxLength": 50,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_l.idouvrageprotecteur"
 
@@ -105,6 +110,7 @@
         "description": "",
         "type": "String",
         "constraints": {
+          "required": false,
           "maxLength": 50,
           "reference": "prefixeppr_ouvrageprotecteur_codealea_p.idouvrageprotecteur"
         }
