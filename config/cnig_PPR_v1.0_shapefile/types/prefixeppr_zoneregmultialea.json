@@ -17,6 +17,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementaireurba_s.idzonereg"
         }
       },
@@ -26,6 +27,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementaireurba_l.idzonereg"
         }
       },
@@ -35,6 +37,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementaireurba_p.idzonereg"
         }
       },
@@ -44,6 +47,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementairefoncier_s.idzonereg"
         }
       },
@@ -53,6 +57,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementairefoncier_l.idzonereg"
         }
       },
@@ -62,6 +67,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
+          "required": false,
           "reference": "prefixeppr_zonereglementairefoncier_p.idzonereg"
         }
       }
