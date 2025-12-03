@@ -25,7 +25,10 @@
       {
         "name": "nomres",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "typeref",
@@ -48,7 +51,10 @@
       {
         "name": "descript",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       }
     ]
   }

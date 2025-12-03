@@ -25,7 +25,10 @@
       {
         "name": "nomressource",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "typereference",
@@ -48,7 +51,10 @@
       {
         "name": "description",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       }
     ]
   }
