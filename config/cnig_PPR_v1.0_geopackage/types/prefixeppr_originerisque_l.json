@@ -28,13 +28,17 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 50
+        "maxLength": 50,
+        "required": false
       }
     },
     {
       "name": "refexterne",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "nom",
