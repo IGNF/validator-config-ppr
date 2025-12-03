@@ -8,7 +8,8 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
-          "reference": "prefixeppr_enjeu_s.idenjeu"
+          "reference": "prefixeppr_enjeu_s.idenjeu",
+          "required": false
         }
       },
       {
@@ -17,7 +18,8 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
-          "reference": "prefixeppr_enjeu_l.idenjeu"
+          "reference": "prefixeppr_enjeu_l.idenjeu",
+          "required": false
         }
       },
       {
@@ -26,7 +28,8 @@
         "type": "String",
         "constraints": {
           "maxLength": 15,
-          "reference": "prefixeppr_enjeu_p.idenjeu"
+          "reference": "prefixeppr_enjeu_p.idenjeu",
+          "required": false
         }
       },
       {
@@ -40,7 +43,10 @@
       {
         "name": "description",
         "description": "",
-        "type": "String"
+        "type": "String",
+        "constraints": {
+          "required": false
+        }
       },
       {
         "name": "valeur",
