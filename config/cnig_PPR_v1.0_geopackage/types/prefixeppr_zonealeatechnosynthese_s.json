@@ -49,6 +49,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 2,
+          "required": false,
           "enum": [
             "00",
             "01",
@@ -67,6 +68,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 1,
+          "required": false,
           "enum":[
             "A",
             "B",
@@ -79,6 +81,9 @@
       {
         "name": "description",
         "description": "",
+        "constraints": {
+          "required": false
+        },
         "type": "String"
       },
       {
@@ -87,6 +92,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 2,
+          "required": false,
           "enum":[
             "Z1",
             "Z2",

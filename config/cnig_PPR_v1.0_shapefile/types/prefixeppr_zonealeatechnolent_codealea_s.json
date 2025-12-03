@@ -68,6 +68,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 1,
+        "required": false,
         "enum":[
           "A",
           "B",
@@ -96,6 +97,9 @@
     {
       "name": "descript",
       "description": "",
+      "constraints": {
+        "required": false
+      },      
       "type": "String"
     },
 

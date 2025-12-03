@@ -68,6 +68,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 1,
+        "required": false,
         "enum":[
           "A",
           "B",
@@ -80,7 +81,10 @@
     {
       "name": "description",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "intensite",
@@ -88,6 +92,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 2,
+        "required": false,
         "enum":[
           "Z1",
           "Z2",
