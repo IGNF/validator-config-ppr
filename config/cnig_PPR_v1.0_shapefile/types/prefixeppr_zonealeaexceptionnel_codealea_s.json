@@ -31,7 +31,7 @@
         "required": true,
         "maxLength": 3,
         "enum": [
-          "114",
+          "14",
           "999"
         ]
 
@@ -42,7 +42,7 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
+        "required": false,
         "maxLength": 2,
         "enum": [
           "00",
@@ -58,12 +58,18 @@
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "descript",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",
