@@ -16,12 +16,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 50,
-        "enum": [
-          "01",
-          "02",
-          "99"
-        ]
+        "required": false,
+        "maxLength": 50
       }
     },
     {
@@ -30,13 +26,21 @@
       "type": "String",
       "constraints": {
         "required": true,
-        "maxLength": 2
+        "maxLength": 2,
+        "enum": [
+          "01",
+          "02",
+          "99"
+        ]
       }
     },
     {
       "name": "refexterneautre",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "typeouvrageprotecteur",
@@ -61,12 +65,18 @@
     {
       "name": "roleprotection",
       "description": "",
-      "type": "Boolean"
+      "type": "Boolean",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",

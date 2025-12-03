@@ -16,6 +16,7 @@
       "description": "",
       "type": "String",
       "constraints": {
+        "required": false,
         "maxLength": 50
       }
     },
@@ -36,7 +37,10 @@
     {
       "name": "refexterneautre",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "typeouvrageprotecteur",
@@ -61,12 +65,18 @@
     {
       "name": "roleprotection",
       "description": "",
-      "type": "Boolean"
+      "type": "Boolean",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",

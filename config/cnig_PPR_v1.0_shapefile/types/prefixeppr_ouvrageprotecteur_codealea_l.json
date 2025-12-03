@@ -16,7 +16,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 50
+        "maxLength": 50,
+        "required": false
       }
     },
     {
@@ -36,7 +37,10 @@
     {
       "name": "refextaut",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "typeouvpro",
@@ -61,14 +65,20 @@
     {
       "name": "roleprotec",
       "description": "",
-      "type": "Boolean"
+      "type": "Boolean",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
-    {
+     {
       "name": "WKT",
       "title": "Géométrie",
       "description": "Géométrie associée",
