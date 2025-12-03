@@ -92,6 +92,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 2,
+        "required": false,
         "enum":[
           "Z1",
           "Z2",

@@ -57,12 +57,18 @@
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "descript",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",
