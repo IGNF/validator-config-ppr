@@ -29,39 +29,56 @@
     {
       "name": "description",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "last_change",
       "description": "",
-      "type": "Date"
+      "type": "Date",
+        "required": true
     },
     {
       "name": "min_x",
       "description": "",
-      "type": "Double"
+      "type": "Double",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "min_y",
       "description": "",
-      "type": "Double"
+      "type": "Double",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "max_x",
       "description": "",
-      "type": "Double"
+      "type": "Double",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "max_y",
       "description": "",
-      "type": "Double"
+      "type": "Double",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "srs_id",
       "description": "",
       "type": "Integer",
       "constraints": {
-        "reference": "gpkg_spatial_ref_sys.srs_id"
+        "reference": "gpkg_spatial_ref_sys.srs_id",
+        "required": false
       }
     }
   ]
