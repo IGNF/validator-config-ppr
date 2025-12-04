@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.codeprocedure"
-        }
+        "reference": "prefixeppr_procedure.codeprocedure"
       }
     },
     {
@@ -69,7 +67,7 @@
       "constraints": {
         "maxLength": 1,
         "required": false,
-        "enum":[
+        "enum": [
           "A",
           "B",
           "C",
@@ -85,7 +83,7 @@
       "constraints": {
         "required": true,
         "maxLength": 2,
-        "enum":[
+        "enum": [
           "Z1",
           "Z2",
           "Z3",
@@ -102,7 +100,6 @@
         "required": false
       }
     },
-
     {
       "name": "WKT",
       "title": "Géométrie",

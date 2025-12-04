@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.idproc"
-        }
+        "reference": "prefixeppr_procedure.idproc"
       }
     },
     {
@@ -31,9 +29,9 @@
         "required": true,
         "maxLength": 3,
         "enum": [
-            "117",
-            "999"
-          ]
+          "117",
+          "999"
+        ]
       }
     },
     {

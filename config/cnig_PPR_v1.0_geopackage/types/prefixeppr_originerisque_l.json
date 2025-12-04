@@ -7,8 +7,8 @@
       "description": "pk",
       "type": "String",
       "constraints": {
-          "required": true,
-          "maxLength": 15
+        "required": true,
+        "maxLength": 15
       }
     },
     {
@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.codeprocedure"
-        }
+        "reference": "prefixeppr_procedure.codeprocedure"
       }
     },
     {
