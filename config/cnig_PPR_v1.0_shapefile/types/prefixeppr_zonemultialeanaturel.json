@@ -52,6 +52,7 @@
         "type": "String",
         "constraints": {
           "maxLength": 2,
+          "required": false,
           "enum": [
             "00",
             "01",
@@ -68,7 +69,10 @@
       {
         "name": "occurrence",
         "description": "",
-        "type": "Integer"
+        "type": "Integer",
+        "constraints": {
+          "required": true
+        }
       }
     ]
   }

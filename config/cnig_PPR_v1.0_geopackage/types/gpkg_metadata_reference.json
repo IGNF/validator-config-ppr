@@ -13,17 +13,26 @@
     {
       "name": "table_name",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "column_name",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "row_id_value",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "timestamp",
@@ -44,7 +53,10 @@
     {
       "name": "md_parent_id",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": false
+      }
     }
   ]
 }

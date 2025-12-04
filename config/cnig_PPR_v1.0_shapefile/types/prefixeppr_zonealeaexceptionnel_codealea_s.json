@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.idproc"
-        }
+        "reference": "prefixeppr_procedure.idproc"
       }
     },
     {
@@ -31,10 +29,9 @@
         "required": true,
         "maxLength": 3,
         "enum": [
-          "114",
+          "14",
           "999"
         ]
-
       }
     },
     {
@@ -42,7 +39,7 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true,
+        "required": false,
         "maxLength": 2,
         "enum": [
           "00",
@@ -58,12 +55,18 @@
     {
       "name": "occurrence",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "descript",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "WKT",

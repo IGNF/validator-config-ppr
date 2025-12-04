@@ -1,57 +1,59 @@
 {
-    "name": "prefixeppr_originerisque_s",
-    "description": "",
-    "columns": [
-        {
-            "name": "idoriginerisque",
-            "description": "pk",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "maxLength": 15
-            }
-        },
-        {
-            "name": "codeprocedure",
-            "description": "fk procedure",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "maxLength": 22,
-                "constraints": {
-                  "reference": "prefixeppr_procedure.codeprocedure"
-                }
-            }
-        },
-        {
-            "name": "idrefexterne",
-            "description": "",
-            "type": "String",
-            "constraints": {
-                "maxLength": 50
-            }
-        },
-        {
-            "name": "refexterne",
-            "description": "",
-            "type": "String"
-        },
-        {
-            "name": "nom",
-            "description": "",
-            "type": "String",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "WKT",
-            "title": "Géométrie",
-            "description": "Géométrie associée",
-            "type": "MultiPolygon",
-            "constraints": {
-                "required": true
-            }
-        }
-    ]
+  "name": "prefixeppr_originerisque_s",
+  "description": "",
+  "columns": [
+    {
+      "name": "idoriginerisque",
+      "description": "pk",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 15
+      }
+    },
+    {
+      "name": "codeprocedure",
+      "description": "fk procedure",
+      "type": "String",
+      "constraints": {
+        "required": true,
+        "maxLength": 22,
+        "reference": "prefixeppr_procedure.codeprocedure"
+      }
+    },
+    {
+      "name": "idrefexterne",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "maxLength": 50,
+        "required": false
+      }
+    },
+    {
+      "name": "refexterne",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "nom",
+      "description": "",
+      "type": "String",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "WKT",
+      "title": "Géométrie",
+      "description": "Géométrie associée",
+      "type": "MultiPolygon",
+      "constraints": {
+        "required": true
+      }
+    }
+  ]
 }

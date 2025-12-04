@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.codeprocedure"
-        }
+        "reference": "prefixeppr_procedure.codeprocedure"
       }
     },
     {
@@ -68,7 +66,8 @@
       "type": "String",
       "constraints": {
         "maxLength": 1,
-        "enum":[
+        "required": false,
+        "enum": [
           "A",
           "B",
           "C",
@@ -84,7 +83,7 @@
       "constraints": {
         "required": true,
         "maxLength": 2,
-        "enum":[
+        "enum": [
           "Z1",
           "Z2",
           "Z3",
@@ -96,9 +95,11 @@
     {
       "name": "description",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
-
     {
       "name": "WKT",
       "title": "Géométrie",

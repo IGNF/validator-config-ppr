@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.codeprocedure"
-        }
+        "reference": "prefixeppr_procedure.codeprocedure"
       }
     },
     {
@@ -49,6 +47,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 2,
+        "required": false,
         "enum": [
           "00",
           "01",
@@ -67,7 +66,8 @@
       "type": "String",
       "constraints": {
         "maxLength": 1,
-        "enum":[
+        "required": false,
+        "enum": [
           "A",
           "B",
           "C",
@@ -79,7 +79,10 @@
     {
       "name": "description",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "intensite",
@@ -88,7 +91,7 @@
       "constraints": {
         "required": true,
         "maxLength": 2,
-        "enum":[
+        "enum": [
           "Z1",
           "Z2",
           "Z3",
@@ -96,7 +99,8 @@
           "Z5"
         ]
       }
-    },    {
+    },
+    {
       "name": "WKT",
       "title": "Géométrie",
       "description": "Geométrie associée",

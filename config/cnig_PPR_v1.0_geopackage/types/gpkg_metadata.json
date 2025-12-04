@@ -5,7 +5,10 @@
     {
       "name": "id",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "md_scope",
@@ -34,7 +37,10 @@
     {
       "name": "metadata",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": true
+      }
     }
   ]
 }

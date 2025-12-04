@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.idproc"
-        }
+        "reference": "prefixeppr_procedure.idproc"
       }
     },
     {
@@ -80,17 +78,26 @@
     {
       "name": "nivprotect",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "occurrence",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "descript",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "idouvprots",
@@ -98,6 +105,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 50,
+        "required": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_s.idouvprot"
       }
     },
@@ -107,6 +115,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 50,
+        "required": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_l.idouvprot"
       }
     },
@@ -116,6 +125,7 @@
       "type": "String",
       "constraints": {
         "maxLength": 50,
+        "required": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_p.idouvprot"
       }
     },

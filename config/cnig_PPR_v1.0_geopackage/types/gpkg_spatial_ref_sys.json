@@ -45,7 +45,10 @@
     {
       "name": "description",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     }
   ]
 }

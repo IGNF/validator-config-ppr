@@ -7,8 +7,8 @@
       "description": "pk",
       "type": "String",
       "constraints": {
-          "required": true,
-          "maxLength": 15
+        "required": true,
+        "maxLength": 15
       }
     },
     {
@@ -18,9 +18,7 @@
       "constraints": {
         "required": true,
         "maxLength": 22,
-        "constraints": {
-          "reference": "prefixeppr_procedure.idproc"
-        }
+        "reference": "prefixeppr_procedure.idproc"
       }
     },
     {
@@ -28,13 +26,17 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "maxLength": 50
+        "maxLength": 50,
+        "required": false
       }
     },
     {
       "name": "refexterne",
       "description": "",
-      "type": "String"
+      "type": "String",
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "nom",

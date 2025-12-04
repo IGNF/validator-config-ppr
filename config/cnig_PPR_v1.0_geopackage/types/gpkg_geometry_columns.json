@@ -29,17 +29,26 @@
     {
       "name": "srs_id",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "z",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "m",
       "description": "",
-      "type": "Integer"
+      "type": "Integer",
+      "constraints": {
+        "required": true
+      }
     }
   ]
 }
