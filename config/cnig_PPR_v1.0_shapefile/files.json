@@ -211,10 +211,100 @@
           "path": "((pprn|pprt|pprm)_(?:[0-9]{2,3}|2a|2b)(pref|ddt|ddtm|dreal|deal|drieat)[0-9]{4}[0-9]{4}|(pprn_i|pprn_l|pprn_mvt|pprn_multi|pprn_s|pprn_av|pprn_ev|pprn_cy|pprn_rga|pprn_if|pprt|pprm|ppr_hybride)_[0-9]{4}_[0-9]{4})_zoneregmultialea",
           "type": "table",
           "tableModel": "./types/prefixeppr_zoneregmultialea.json"
+        },
+                {
+          "name": "typealea",
+          "path": "typealea",
+          "type": "table",
+          "data": "./types/typealea.json"
+        },
+        {
+          "name": "typeetatprocedure",
+          "path": "typeetatprocedure",
+          "type": "table",
+          "data": "./types/typeetatprocedure.json"
+        },
+        {
+          "name": "typereference",
+          "path": "typereference",
+          "type": "table",
+          "data": "./types/typereference.json"
+        },
+        {
+          "name": "typeclasseprobatechno",
+          "path": "typeclasseprobatechno",
+          "type": "table",
+          "data": "./types/typeclasseprobatechno.json"
+        },
+        {
+          "name": "typeintensitetechno",
+          "path": "typeintensitetechno",
+          "type": "table",
+          "data": "./types/typeintensitetechno.json"
+        },
+        {
+          "name": "typerefexterneouvrage",
+          "path": "typerefexterneouvrage",
+          "type": "table",
+          "data": "./types/typerefexterneouvrage.json"
+        },
+        {
+          "name": "typeenjeucovadis",
+          "path": "typeenjeucovadis",
+          "type": "table",
+          "data": "./types/typeenjeucovadis.json"
+        },
+        {
+          "name": "typeniveaualea",
+          "path": "typeniveaualea",
+          "type": "table",
+          "data": "./types/typeniveaualea.json"
+        },
+        {
+          "name": "typereglementfoncier",
+          "path": "typereglementfoncier",
+          "type": "table",
+          "data": "./types/typereglementfoncier.json"
+        },
+        {
+          "name": "typeenjeupprn",
+          "path": "typeenjeupprn",
+          "type": "table",
+          "data": "./types/typeenjeupprn.json"
+        },
+        {
+          "name": "typeenjeupprt",
+          "path": "typeenjeupprt",
+          "type": "table",
+          "data": "./types/typeenjeupprt.json"
+        },
+        {
+          "name": "typeouvrageprotecteur",
+          "path": "typeouvrageprotecteur",
+          "type": "table",
+          "data": "./types/typeouvrageprotecteur.json"
+        },
+        {
+          "name": "typereglementurba",
+          "path": "typereglementurba",
+          "type": "table",
+          "data": "./types/typereglementurba.json"
+        },
+        {
+          "name": "typeprocedure",
+          "path": "typeprocedure",
+          "type": "table",
+          "data": "./types/typeprocedure.json"
+        },
+        {
+          "name": "typesuralea",
+          "path": "typesuralea",
+          "type": "table",
+          "data": "./types/typesuralea.json"
         }
+
   ],
   "codes": [
-
     {
         "name": "typealea",
         "title": "typealea",
