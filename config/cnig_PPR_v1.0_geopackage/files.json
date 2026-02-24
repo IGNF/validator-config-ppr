@@ -212,77 +212,77 @@
         {
           "name": "typealea",
           "path": "typealea",
-          "data": "./types/typealea.json"
+          "tableModel": "./types/typealea.json"
         },
         {
           "name": "typeetatprocedure",
           "path": "typeetatprocedure",
-          "data": "./types/typeetatprocedure.json"
+          "tableModel": "./types/typeetatprocedure.json"
         },
         {
           "name": "typereference",
           "path": "typereference",
-          "data": "./types/typereference.json"
+          "tableModel": "./types/typereference.json"
         },
         {
           "name": "typeclasseprobatechno",
           "path": "typeclasseprobatechno",
-          "data": "./types/typeclasseprobatechno.json"
+          "tableModel": "./types/typeclasseprobatechno.json"
         },
         {
           "name": "typeintensitetechno",
           "path": "typeintensitetechno",
-          "data": "./types/typeintensitetechno.json"
+          "tableModel": "./types/typeintensitetechno.json"
         },
         {
           "name": "typerefexterneouvrage",
           "path": "typerefexterneouvrage",
-          "data": "./types/typerefexterneouvrage.json"
+          "tableModel": "./types/typerefexterneouvrage.json"
         },
         {
           "name": "typeenjeucovadis",
           "path": "typeenjeucovadis",
-          "data": "./types/typeenjeucovadis.json"
+          "tableModel": "./types/typeenjeucovadis.json"
         },
         {
           "name": "typeniveaualea",
           "path": "typeniveaualea",
-          "data": "./types/typeniveaualea.json"
+          "tableModel": "./types/typeniveaualea.json"
         },
         {
           "name": "typereglementfoncier",
           "path": "typereglementfoncier",
-          "data": "./types/typereglementfoncier.json"
+          "tableModel": "./types/typereglementfoncier.json"
         },
         {
           "name": "typeenjeupprn",
           "path": "typeenjeupprn",
-          "data": "./types/typeenjeupprn.json"
+          "tableModel": "./types/typeenjeupprn.json"
         },
         {
           "name": "typeenjeupprt",
           "path": "typeenjeupprt",
-          "data": "./types/typeenjeupprt.json"
+          "tableModel": "./types/typeenjeupprt.json"
         },
         {
           "name": "typeouvrageprotecteur",
           "path": "typeouvrageprotecteur",
-          "data": "./types/typeouvrageprotecteur.json"
+          "tableModel": "./types/typeouvrageprotecteur.json"
         },
         {
           "name": "typereglementurba",
           "path": "typereglementurba",
-          "data": "./types/typereglementurba.json"
+          "tableModel": "./types/typereglementurba.json"
         },
         {
           "name": "typeprocedure",
           "path": "typeprocedure",
-          "data": "./types/typeprocedure.json"
+          "tableModel": "./types/typeprocedure.json"
         },
         {
           "name": "typesuralea",
           "path": "typesuralea",
-          "data": "./types/typesuralea.json"
+          "tableModel": "./types/typesuralea.json"
         }
       ]
     }
