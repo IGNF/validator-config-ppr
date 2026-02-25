@@ -208,160 +208,86 @@
           "name": "prefixeppr_zoneregmultialea",
           "path": "((pprn|pprt|pprm)_(?:[0-9]{2,3}|2a|2b)(pref|ddt|ddtm|dreal|deal|drieat)[0-9]{4}[0-9]{4}|(pprn_i|pprn_l|pprn_mvt|pprn_multi|pprn_s|pprn_av|pprn_ev|pprn_cy|pprn_rga|pprn_if|pprt|pprm|ppr_hybride)_[0-9]{4}_[0-9]{4})_zoneregmultialea",
           "tableModel": "./types/prefixeppr_zoneregmultialea.json"
-        },
-        {
-          "name": "typealea",
-          "path": "typealea",
-          "tableModel": "./types/typealea.json"
-        },
-        {
-          "name": "typeetatprocedure",
-          "path": "typeetatprocedure",
-          "tableModel": "./types/typeetatprocedure.json"
-        },
-        {
-          "name": "typereference",
-          "path": "typereference",
-          "tableModel": "./types/typereference.json"
-        },
-        {
-          "name": "typeclasseprobatechno",
-          "path": "typeclasseprobatechno",
-          "tableModel": "./types/typeclasseprobatechno.json"
-        },
-        {
-          "name": "typeintensitetechno",
-          "path": "typeintensitetechno",
-          "tableModel": "./types/typeintensitetechno.json"
-        },
-        {
-          "name": "typerefexterneouvrage",
-          "path": "typerefexterneouvrage",
-          "tableModel": "./types/typerefexterneouvrage.json"
-        },
-        {
-          "name": "typeenjeucovadis",
-          "path": "typeenjeucovadis",
-          "tableModel": "./types/typeenjeucovadis.json"
-        },
-        {
-          "name": "typeniveaualea",
-          "path": "typeniveaualea",
-          "tableModel": "./types/typeniveaualea.json"
-        },
-        {
-          "name": "typereglementfoncier",
-          "path": "typereglementfoncier",
-          "tableModel": "./types/typereglementfoncier.json"
-        },
-        {
-          "name": "typeenjeupprn",
-          "path": "typeenjeupprn",
-          "tableModel": "./types/typeenjeupprn.json"
-        },
-        {
-          "name": "typeenjeupprt",
-          "path": "typeenjeupprt",
-          "tableModel": "./types/typeenjeupprt.json"
-        },
-        {
-          "name": "typeouvrageprotecteur",
-          "path": "typeouvrageprotecteur",
-          "tableModel": "./types/typeouvrageprotecteur.json"
-        },
-        {
-          "name": "typereglementurba",
-          "path": "typereglementurba",
-          "tableModel": "./types/typereglementurba.json"
-        },
-        {
-          "name": "typeprocedure",
-          "path": "typeprocedure",
-          "tableModel": "./types/typeprocedure.json"
-        },
-        {
-          "name": "typesuralea",
-          "path": "typesuralea",
-          "tableModel": "./types/typesuralea.json"
         }
       ]
     }
   ],
   "codes": [
+
     {
-      "name": "typealea",
-      "title": "typealea",
-      "data": "./codes/typealea.csv"
+        "name": "typealea",
+        "title": "typealea",
+        "data": "./codes/typealea.csv"
     },
     {
-      "name": "typeetatprocedure",
-      "title": "typeetatprocedure",
-      "data": "./codes/typeetatprocedure.csv"
+        "name": "typeetatprocedure",
+        "title": "typeetatprocedure",
+        "data": "./codes/typeetatprocedure.csv"
     },
     {
-      "name": "typereference",
-      "title": "typereference",
-      "data": "./codes/typereference.csv"
+        "name": "typereference",
+        "title": "typereference",
+        "data": "./codes/typereference.csv"
     },
     {
-      "name": "typeclasseprobatechno",
-      "title": "typeclasseprobatechno",
-      "data": "./codes/typeclasseprobatechno.csv"
+        "name": "typeclasseprobatechno",
+        "title": "typeclasseprobatechno",
+        "data": "./codes/typeclasseprobatechno.csv"
     },
     {
-      "name": "typeintensitetechno",
-      "title": "typeintensitetechno",
-      "data": "./codes/typeintensitetechno.csv"
+        "name": "typeintensitetechno",
+        "title": "typeintensitetechno",
+        "data": "./codes/typeintensitetechno.csv"
     },
     {
-      "name": "typerefexterneouvrage",
-      "title": "typerefexterneouvrage",
-      "data": "./codes/typerefexterneouvrage.csv"
+        "name": "typerefexterneouvrage",
+        "title": "typerefexterneouvrage",
+        "data": "./codes/typerefexterneouvrage.csv"
     },
     {
-      "name": "typeenjeucovadis",
-      "title": "typeenjeucovadis",
-      "data": "./codes/typeenjeucovadis.csv"
+        "name": "typeenjeucovadis",
+        "title": "typeenjeucovadis",
+        "data": "./codes/typeenjeucovadis.csv"
     },
     {
-      "name": "typeniveaualea",
-      "title": "typeniveaualea",
-      "data": "./codes/typeniveaualea.csv"
+        "name": "typeniveaualea",
+        "title": "typeniveaualea",
+        "data": "./codes/typeniveaualea.csv"
     },
     {
-      "name": "typereglementfoncier",
-      "title": "typereglementfoncier",
-      "data": "./codes/typereglementfoncier.csv"
+        "name": "typereglementfoncier",
+        "title": "typereglementfoncier",
+        "data": "./codes/typereglementfoncier.csv"
     },
     {
-      "name": "typeenjeupprn",
-      "title": "typeenjeupprn",
-      "data": "./codes/typeenjeupprn.csv"
+        "name": "typeenjeupprn",
+        "title": "typeenjeupprn",
+        "data": "./codes/typeenjeupprn.csv"
     },
     {
-      "name": "typeenjeupprt",
-      "title": "typeenjeupprt",
-      "data": "./codes/typeenjeupprt.csv"
+        "name": "typeenjeupprt",
+        "title": "typeenjeupprt",
+        "data": "./codes/typeenjeupprt.csv"
     },
     {
-      "name": "typeouvrageprotecteur",
-      "title": "typeouvrageprotecteur",
-      "data": "./codes/typeouvrageprotecteur.csv"
+        "name": "typeouvrageprotecteur",
+        "title": "typeouvrageprotecteur",
+        "data": "./codes/typeouvrageprotecteur.csv"
     },
     {
-      "name": "typereglementurba",
-      "title": "typereglementurba",
-      "data": "./codes/typereglementurba.csv"
+        "name": "typereglementurba",
+        "title": "typereglementurba",
+        "data": "./codes/typereglementurba.csv"
     },
     {
-      "name": "typeprocedure",
-      "title": "typeprocedure",
-      "data": "./codes/typeprocedure.csv"
+        "name": "typeprocedure",
+        "title": "typeprocedure",
+        "data": "./codes/typeprocedure.csv"
     },
     {
-      "name": "typesuralea",
-      "title": "typesuralea",
-      "data": "./codes/typesuralea.csv"
+        "name": "typesuralea",
+        "title": "typesuralea",
+        "data": "./codes/typesuralea.csv"
     }
   ]
 }
