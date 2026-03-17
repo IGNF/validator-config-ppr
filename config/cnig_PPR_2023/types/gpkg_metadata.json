@@ -12,7 +12,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -20,7 +21,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -28,7 +30,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {

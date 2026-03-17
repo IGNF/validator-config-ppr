@@ -8,6 +8,7 @@
       "type": "Integer",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "unique": true
       }
     },
@@ -18,6 +19,7 @@
       "constraints": {
         "maxLength": 3,
         "required": true,
+        "presenceRequired": true,
         "enum": [
           "112",
           "113",
@@ -72,6 +74,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementaireurba_s.idzonereglementaire"
       }
     },
@@ -82,6 +85,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementaireurba_l.idzonereglementaire"
       }
     },
@@ -92,6 +96,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementaireurba_p.idzonereglementaire"
       }
     },
@@ -102,6 +107,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementairefoncier_s.idzonereglementaire"
       }
     },
@@ -112,6 +118,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementairefoncier_l.idzonereglementaire"
       }
     },
@@ -122,6 +129,7 @@
       "constraints": {
         "maxLength": 15,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_zonereglementairefoncier_p.idzonereglementaire"
       }
     }

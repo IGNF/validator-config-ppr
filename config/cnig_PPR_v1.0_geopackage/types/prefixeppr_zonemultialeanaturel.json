@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 3,
         "enum": [
           "112",
@@ -42,6 +43,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15,
         "reference": "prefixeppr_zonealeanaturelsynthese_s.idzonealea"
       }
@@ -53,7 +55,8 @@
       "constraints": {
         "maxLength": 2,
         "required": false,
-          "enum": [
+        "presenceRequired": false,
+        "enum": [
           "00",
           "01",
           "02",
@@ -71,7 +74,8 @@
       "description": "",
       "type": "Integer",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 10
       }
     },
@@ -17,6 +18,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 80
       }
     }

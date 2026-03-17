@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "unique": true,
         "maxLength": 8
       }
@@ -26,6 +27,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 50
       }
     },
@@ -35,6 +37,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 16
       }
     },
@@ -44,6 +47,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 255
       }
     },
@@ -52,7 +56,8 @@
       "description": "",
       "type": "Date",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -61,7 +66,8 @@
       "description": "Geométrie associée",
       "type": "LineString",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

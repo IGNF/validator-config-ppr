@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15
       }
     },
@@ -17,6 +18,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 22,
         "reference": "prefixeppr_procedure.codeprocedure"
       }
@@ -27,6 +29,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 3,
         "enum": [
           "112",
@@ -80,7 +83,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -88,7 +92,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -96,7 +101,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -106,6 +112,7 @@
       "constraints": {
         "maxLength": 50,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_s.idouvrageprotecteur"
       }
     },
@@ -116,6 +123,7 @@
       "constraints": {
         "maxLength": 50,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_l.idouvrageprotecteur"
       }
     },
@@ -126,6 +134,7 @@
       "constraints": {
         "maxLength": 50,
         "required": false,
+        "presenceRequired": false,
         "reference": "prefixeppr_ouvrageprotecteur_codealea_p.idouvrageprotecteur"
       }
     },
@@ -135,7 +144,8 @@
       "description": "Géométrie associée",
       "type": "Polygon",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

@@ -7,7 +7,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -15,7 +16,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -31,21 +33,24 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
       "name": "last_change",
       "description": "",
       "type": "Date",
-        "required": true
+      "required": true,
+      "presenceRequired": true
     },
     {
       "name": "min_x",
       "description": "",
       "type": "Double",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -53,7 +58,8 @@
       "description": "",
       "type": "Double",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -61,7 +67,8 @@
       "description": "",
       "type": "Double",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -69,7 +76,8 @@
       "description": "",
       "type": "Double",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -78,7 +86,8 @@
       "type": "Integer",
       "constraints": {
         "reference": "gpkg_spatial_ref_sys.srs_id",
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     }
   ]

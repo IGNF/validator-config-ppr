@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 20
       }
     },
@@ -17,6 +18,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 2
       }
     },
@@ -42,7 +44,8 @@
       "description": "Geométrie associée",
       "type": "Point",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

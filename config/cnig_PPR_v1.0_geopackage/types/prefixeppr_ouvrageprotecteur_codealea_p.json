@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15
       }
     },
@@ -17,6 +18,7 @@
       "type": "String",
       "constraints": {
         "required": false,
+        "presenceRequired": false,
         "maxLength": 50
       }
     },
@@ -26,6 +28,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 2,
         "enum": [
           "01",
@@ -39,7 +42,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -67,7 +71,8 @@
       "description": "",
       "type": "Boolean",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -75,7 +80,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -84,7 +90,8 @@
       "description": "Géométrie associée",
       "type": "MultiPoint",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]
