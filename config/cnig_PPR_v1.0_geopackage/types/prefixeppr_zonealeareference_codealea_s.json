@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15
       }
     },
@@ -17,6 +18,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 22,
         "reference": "prefixeppr_procedure.codeprocedure"
       }
@@ -27,6 +29,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 3,
         "enum": [
           "112",
@@ -62,6 +65,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 2,
         "enum": [
           "00",
@@ -81,7 +85,8 @@
       "description": "",
       "type": "Integer",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -89,7 +94,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -98,7 +104,8 @@
       "description": "Geométrie associée",
       "type": "Polygon",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

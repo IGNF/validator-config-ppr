@@ -8,6 +8,7 @@
       "type": "Integer",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15,
         "unique": true
       }
@@ -18,6 +19,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 22,
         "reference": "prefixeppr_procedure.codeprocedure"
       }
@@ -27,7 +29,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -35,7 +38,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -44,6 +48,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 2,
         "enum": [
           "01",
@@ -57,7 +62,8 @@
       "description": "Géométrie associée",
       "type": "Point",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 15,
         "unique": true
       }
@@ -18,6 +19,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 22,
         "reference": "prefixeppr_procedure.codeprocedure"
       }
@@ -28,6 +30,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 10,
         "enum": [
           "DEB_PRG",
@@ -47,7 +50,8 @@
       "description": "",
       "type": "Date",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -56,7 +60,8 @@
       "description": "Geométrie associée",
       "type": "MultiPolygon",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]

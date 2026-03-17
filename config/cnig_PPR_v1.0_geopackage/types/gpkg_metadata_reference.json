@@ -7,7 +7,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -15,7 +16,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -23,7 +25,8 @@
       "description": "",
       "type": "String",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -31,7 +34,8 @@
       "description": "",
       "type": "Integer",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     },
     {
@@ -39,7 +43,8 @@
       "description": "",
       "type": "Date",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -47,7 +52,8 @@
       "description": "",
       "type": "Integer",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -55,7 +61,8 @@
       "description": "",
       "type": "Integer",
       "constraints": {
-        "required": false
+        "required": false,
+        "presenceRequired": false
       }
     }
   ]

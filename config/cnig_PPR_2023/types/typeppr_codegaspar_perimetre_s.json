@@ -8,6 +8,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 8,
         "unique": true
       }
@@ -18,6 +19,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 16
       }
     },
@@ -27,6 +29,7 @@
       "type": "String",
       "constraints": {
         "required": true,
+        "presenceRequired": true,
         "maxLength": 10
       }
     },
@@ -35,7 +38,8 @@
       "description": "",
       "type": "Date",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     },
     {
@@ -44,7 +48,8 @@
       "description": "Geométrie associée",
       "type": "MultiPolygon",
       "constraints": {
-        "required": true
+        "required": true,
+        "presenceRequired": true
       }
     }
   ]
